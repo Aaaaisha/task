@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    
+
+    <style>
+
+        *{ 
+            margin: 0;
+            padding: 0;
+            font-family:'Lucida Sans', 'Lucida Sans Regular',
+              'Lucida Grande', 'Lucida Sans Unicode',
+              Geneva, Verdana, sans-serif;}
+
+        body{ 
+            background-color:teal;}
+
+        .main_content{
+            margin-top:120px;}
+         
+        .quiz_options{
+             border: solid white;
+             border-radius:15px;
+             background-color:white;
+             width:290px;
+             text-align: left;}
+            
+        .header{
+            background-color: black;
+            color: white;
+            padding:26px;
+            text-align: center;
+            border-radius:15px;
+            }
+                
+        li{ 
+            display: block;
+            border:solid darkgray thin;
+            border-radius:200px;
+            padding:15px;
+            width:240px;
+            margin:8px;
+            font-size:13px;
+        } 
+
+        span{
+            font-size:16px;
+            border-style:solid;
+            border-radius:100%;
+            border-width:2px;
+            padding:5px 7px;
+            
+            }
+            
+
+    </style>
+
+</head>
+<body >
+    
+<div align="center" class="main_content" >
+    <div class="quiz_options">
+        <div class="header"> YOU CUESS MY SECERT TALENT?</div>
+
+        <li id="op1" onclick="document.getElementById('op1').style.backgroundColor = 'red';"><span>A</span> I can juggle.</li>
+        <li id="op2" onclick="document.getElementById('op2').style.backgroundColor = 'rgb(138, 221, 13)';"><span >B</span> I can play the drums.</li>
+        <li id="op3" onclick="document.getElementById('op3').style.backgroundColor = 'red';"><span>C</span> I can dance the tango.</li>
+        <li id="op4" onclick="document.getElementById('op4').style.backgroundColor = 'red';"><span>D</span> I speak 3 language fluently.</li>
+    
+    </div>
+</div>
+
+</body>
+</html>
